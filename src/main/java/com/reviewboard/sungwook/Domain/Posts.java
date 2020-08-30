@@ -2,12 +2,14 @@ package com.reviewboard.sungwook.Domain;
 
 import lombok.Builder;
 import lombok.NoArgsConstructor;
+import lombok.Getter;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
+@Getter
 @NoArgsConstructor
 public class Posts {
 
